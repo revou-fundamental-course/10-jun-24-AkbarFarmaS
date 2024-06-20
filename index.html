@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Suhu</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Suhu</h1>
+        <label for="celsius">Celsius (°C):</label>
+        <input type="number" id="celsius" name="celsius">
+        <button onclick="convertToFahrenheit()">Convert to Fahrenheit</button>
+        <button onclick="reset()">Reset</button>
+        
+        <h2>Fahrenheit (°F):</h2>
+        <input type="text" id="fahrenheit" name="fahrenheit" readonly>
+        
+        <h3>Calculation Explanation:</h3>
+        <p id="explanation"></p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
